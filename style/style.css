@@ -1,0 +1,68 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.footer {
+  position: relative;
+  margin-top: 13rem;
+  padding: 2.5rem 19.3rem;
+  display: flex;
+  background: #0c426f;
+  border-bottom: 1px solid #0A3559;
+}
+.footer .col-4 {
+  width: 25%;
+  padding: 0 20px;
+  margin-bottom: 8.5rem;
+}
+.footer .col-4 h3 {
+  font-size: 1.8rem;
+  color: #ddd;
+  margin-bottom: 2rem;
+}
+.footer .col-4 h5 {
+  font-weight: 400;
+  color: #9dbbd5;
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+}
+.footer .col-4 p {
+  color: #9dbbd5;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.footer .col-4 p span {
+  color: white;
+  font-weight: bolder;
+}
+.footer .col-4 p a {
+  text-decoration: dotted underline;
+  font-weight: bold;
+}
+.footer .col-4 img {
+  margin: 10px;
+}
+.footer .last {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 8.5rem;
+  width: 100%;
+  background: #083158;
+}
